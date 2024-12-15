@@ -2,9 +2,8 @@ a=int(input())
 mi=0
 ma=0
 k=0
-kmima=0
 while a!=0:
-    if (mi==0 or ma==0) and a%7!=0:
+    if (mi==0 or ma==0) and a%7==0:
         mi=a
         ma=a
         k+=1
