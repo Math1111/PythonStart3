@@ -1,8 +1,7 @@
 n=int(input())
-k=1
-sch=0
+s=0
 for i in range(n):
-    if k%2==0:
-        sch+=k
-    k+=1
-print(sch)
+    x=int(input())
+    if x%3==0 and x%10==2:
+        s+=1
+print(s)

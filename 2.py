@@ -1,10 +1,7 @@
 n=int(input())
-k=1
-sch=0
-kv=0
+mi=30000
 for i in range(n):
-    kv=k**2
-    sch+=kv
-    k+=1
-print(sch)
-
+    x=int(input())
+    if x%10==4 and x<mi:
+        mi=x
+print(mi)
